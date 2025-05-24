@@ -15,25 +15,25 @@ testimonials:
   - name: "John Smith"
     title: "CTO at TechStartup"
     avatar: "/images/testimonial-1.svg"
-    quote: "We built our SaaS website in record time. The performance is incredible, and our users love the modern, clean design."
+    quote: "Working with this studio was a game-changer. They delivered a fully custom site on time, and the friendly support made the whole process effortless."
   - name: "Sarah Johnson"
     title: "Founder at WebFlow"
-    avatar: "/images/testimonial-1.svg"
-    quote: "The combination of Hugo and TailwindCSS delivers lightning-fast performance. Our website loads instantly, which has significantly improved our conversion rates."
+    avatar: "/images/testimonial-2.svg"
+    quote: "Their team took our vision and transformed it into a pixel-perfect website. The responsiveness and load times are outstanding."
   - name: "Michael Chen"
     title: "Lead Developer at CloudTech"
-    avatar: "/images/testimonial-1.svg"
-    quote: "This theme made it easy to create a professional SaaS website. The build times are incredibly fast, and the code is clean and maintainable."
+    avatar: "/images/testimonial-3.svg"
+    quote: "Their clean code and modular approach made maintenance a breeze. We've seen a 30% uptick in engagement since launch."
 ---
 
 {{< hero 
-    headline="Build Your SaaS Website"
-    sub_headline="Create stunning, responsive websites that load instantly. Built with Hugo and TailwindCSS for maximum performance and flexibility."
-    primary_button_text="Get Started Free"
+    headline="Elevate Your Online Presence"
+    sub_headline="We craft bespoke, responsive websites tailored to your brand. From concept to launch, our web studio delivers excellence."
+    primary_button_text="Start Your Project"
     primary_button_url="#"
-    secondary_button_text="View Demo"
+    secondary_button_text="Our Portfolio"
     secondary_button_url="#"
-    hero_image="/images/hero-dashboard.svg"
+    hero_image="/images/hero-studio.svg"
     gradient-from="#dbeafe"
     gradient-to="#f3e8ff"
     gradient-angle="180"
@@ -42,53 +42,57 @@ testimonials:
 {{< client-logos animate="true" >}}
 
 {{< features-section 
-    title="Modern Features for Modern Websites"
-    description="Discover how our theme helps you build fast, beautiful SaaS websites with ease."
+    title="Our Core Services"
+    description="From design and development to SEO and support, we’ve got you covered."
 >}}
 
 {{< feature
-    title="Lightning-Fast Performance"
-    description="Leverage Hugo's blazing-fast build times and optimized output. Your website loads instantly, providing an exceptional user experience."
-    badge="Performance"
-    badgeColor="#2563eb"
-    image="/images/feature-1.svg"
+    title="Custom Development"
+    description="We build tailor-made websites using the latest technologies that scale with your business."
+    badge="Development"
+    badgeColor="#16a34a"
+    image="/images/feature-development.svg"
     buttonText="Learn More"
-    buttonLink="/features/performance/"
-    features="Sub-second page loads,Optimized assets,Minimal JavaScript,CDN-ready output"
+    buttonLink="/features/development/"
+    features="Bespoke code,CMS integration,API services,Future-proof architectures"
     imagePosition="right"
 >}}
 
 {{< feature
-    title="Beautiful Design System"
-    description="Create stunning user interfaces with our comprehensive design system built on TailwindCSS. Customize everything to match your brand."
+    title="Responsive Design"
+    description="Every site is fully responsive and mobile-first, ensuring a seamless experience on any device."
     badge="Design"
     badgeColor="#7c3aed"
-    image="/images/feature-2.svg"
+    image="/images/feature-design.svg"
     buttonText="Learn More"
-    buttonLink="/features/design-system/"
-    features="Modern UI components,Responsive design,Custom typography,Flexible layouts"
+    buttonLink="/features/design/"
+    features="Adaptive layouts,Touch-friendly UI,Cross-browser tested,Accessibility focused"
     imagePosition="left"
 >}}
 
 {{< feature
-    title="Developer Experience"
-    description="Enjoy a seamless development experience with hot reload, component-based architecture, and clean, maintainable code."
-    badge="Development"
-    badgeColor="#16a34a"
-    image="/images/feature-3.svg"
+    title="SEO & Performance"
+    description="Optimized for speed and search engines, your site will rank higher and load faster."
+    badge="Performance"
+    badgeColor="#2563eb"
+    image="/images/feature-seo.svg"
     buttonText="Learn More"
-    buttonLink="/features/developer-experience/"
-    features="Component system,Easy customization,Clean code,Detailed documentation"
+    buttonLink="/features/seo-performance/"
+    features="Fast load times,On-page SEO,Image optimization,CDN deployment"
     imagePosition="right"
 >}}
 
 {{< /features-section >}}
 
 {{< testimonials 
-    title="Trusted by Modern Web Teams"
-    description="See how teams are building better websites with our theme."
+    title="What Clients Say"
+    description="Hear from businesses who trusted our web studio."
     animate="true"
     background-color="#f1f5f9"
 >}}
 
-{{< cta >}}
+{{< cta 
+    headline="Ready to Transform Your Website?" 
+    button_text="Get In Touch" 
+    button_url="/contact/" 
+>}}
